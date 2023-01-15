@@ -8,12 +8,16 @@ else
   alias ls='ls --color=auto'
 fi
 
+
+
+
 alias killz='killall -9 '
 alias hidden='ls -d .*'
 alias rm='rm -v'
 alias cp='cp -v'
 alias mv='mv -v'
 alias shell='ps -p $$ -o comm='
-alias vim='nvim'
+alias vi='nvim'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-
+alias mkdir ='mk'
+alias clr = 'clear'
